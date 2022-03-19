@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #submit{
+            background-color: rgb(47, 175, 255);
+            color: white;
+            border-radius: 2px;
+            font-size: 14px;
+            padding: 2px 10px 2px 10px;
+            border-color: black;
+        }
+        form{
+            margin-top: 10px;
+        }
+        div{
+            margin-left: 3px;
+        }
+        #countryname{
+            background-color: rgb(167, 164, 164);
+            color: black;
+            padding: 2px 5px 2px 5px;
+            border-color: black;
+            
+        }
+        ::placeholder{
+            color: black;
+
+        }
+        ul{
+            list-style: none;
+            
+        }
+        .list{
+            width: 100%;
+            background-color: #ffffff;
+            margin-left: -40px;
+            margin-top: 0px;
+            
+
+        }
+        li{
+            
+            border-bottom: .8px solid rgba(0,0,0,.15);
+            border-left: .8px solid rgba(0,0,0,.15);
+            border-right: .8px solid rgba(0,0,0,.15);
+            padding: 3px 0px 2px 5px;
+            
+        }
+        form{
+            display: flex;
+        }
+        #submit{
+            height: 25px;
+            margin-left: 20px;
+            border-radius: 3px;
+            margin-top: -2px;
+        }
+    </style>
+</head>
+<body>
+    <div>Start typing:</div>
+    <form>
+        <div>
+        <input type="text" id="country-name" name="countryname" placeholder="Search for country" >
+        <ul class="list"></ul>
+    </div>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    <script src="1.js"></script>
+</body>
+</html>
